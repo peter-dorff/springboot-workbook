@@ -32,7 +32,7 @@ Die ausgechekten Dateien sind im Dateisystem des Host zugreifbar und editierbar.
 
 ```
 cd springboot-workbook
-spring run cli/hi.groovy
+spring run hi.groovy/hi.groovy
 ```
 
 Mit diesem Kommando wird ein Groovy basierter springboot Webservice unter Verwendung des Springboot CLI gestarted. 
