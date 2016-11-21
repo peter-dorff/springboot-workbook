@@ -12,18 +12,18 @@ cd ~
 mkdir demo
 cd demo
 
-wget "https://raw.githubusercontent.com/peter-dorff/springboot-demo/master/Vagrantfile"
+wget "https://raw.githubusercontent.com/peter-dorff/springboot-workbook/master/Vagrantfile"
 vagrant up
 ```
 
-Mit dem ersten Start der VM mit Vagrant wird eine ''Base Box'' aus dem [HashiCorp Repository](https://atlas.hashicorp.com/boxes/search) geladen und entsprechend der Anweisungen der geladenen Datei [Vagrantfile](https://raw.githubusercontent.com/peter-dorff/springboot-demo/master/Vagrantfile)   angepasst (provisioniert). Dieser Prozeß dauert einige Minuten. Jeder weitere Start sollte dann erheblich schneller sein. 
+Mit dem ersten Start der VM mit Vagrant wird eine ''Base Box'' aus dem [HashiCorp Repository](https://atlas.hashicorp.com/boxes/search) geladen und entsprechend der Anweisungen der geladenen Datei [Vagrantfile](https://raw.githubusercontent.com/peter-dorff/springboot-workbook/master/Vagrantfile)   angepasst (provisioniert). Dieser Prozeß dauert einige Minuten. Jeder weitere Start sollte dann erheblich schneller sein. 
 
 Nach dem Start der VM können die folgenden Kommandos ausgeführt werden.
 
 ```
 vagrant ssh
 cd projects
-git clone https://github.com/peter-dorff/springboot-demo.git
+git clone https://github.com/peter-dorff/springboot-workbook.git
 ```
 
 Die ausgechekten Dateien sind im Dateisystem des Host zugreifbar und editierbar.
@@ -76,9 +76,6 @@ vagrant up
 
 1. [Simple Springbood CLI Demo](./hi.groovy/HI.GROOVY.md)
 2. [Simple Springboot Demo](./hi.java/HI.JAVA.md) 
-3. [Initale Anwendung](./users/USERS.md)
-4. [Security](./security/SECURITY.md)
-  
 
 ## Umgebung löschen
 
